@@ -81,7 +81,7 @@ After your first answers, it runs a live web search for current libraries, patte
 **One skill, or all four**, into your user-level Claude skills directory (available in every project):
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/spec-first.git
+git clone https://github.com/nidhi1603/spec-first.git
 cd spec-first
 ./install.sh                       # all four
 ./install.sh project-interrogator  # or just the flagship
