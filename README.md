@@ -2,6 +2,11 @@
 
 **Four Claude skills that stop AI from building the wrong thing.**
 
+<!-- Record this with .demo/RECORD.md, then push .demo/demo.gif — it renders here automatically. -->
+<p align="center">
+  <img src=".demo/demo.gif" alt="project-interrogator flips Claude from build-first to interrogate-first" width="800">
+</p>
+
 You say *"build me a tool to track my reading."* Stock Claude writes 200 lines of a command-line app — silently choosing the platform, the language, and the storage you never asked for. Maybe you wanted a phone app. Now you're reading code you have to throw away.
 
 `spec-first` flips that default. It makes Claude **interrogate before it implements**, hold the build to an approved spec, and prove the result actually works before calling it done. Idea → spec → build → ship, with a human approval gate where it matters.
